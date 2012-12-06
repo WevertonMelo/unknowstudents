@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -11,13 +11,14 @@
     </header>
     <nav>
       <ul>
-        <li><a href="#learning">Aprendendo</a></li><br />
-        <li><a href="#students">Participantes</a></li><br />
-        <li><a href="#browsers">Navegadores</a></li><br />
-        <li><a href="#slides">Slides</a></li><br />
-        <li><a href="#video">Video</a></li><br />
-        <li><a href="#professor">Instrutor</a></li><br />
-        <li><a href="#contact">Contato</a></li><br/>
+        <li><a href="#learning">Aprendendo</a></li>
+        <li><a href="#students">Participantes</a></li>
+        <li><a href="#browsers">Navegadores</a></li>
+        <li><a href="#slides">Slides</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#professor">Instrutor</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="#github-founders">Criadores do GitHub</a></li>
       </ul>
     </nav>
     <article>
@@ -26,9 +27,6 @@
         <img src="img/html5logo.png" width="100" height="100">
         <p><abbr title="Hypertext Markup Language, versão 5">HTML5</abbr>  é uma linguagem para estruturação e apresentação de conteúdo para a World Wide Web e é uma tecnologia chave da Internet originalmente proposto por Opera Software.[1] É a quinta versão da linguagem HTML. Esta nova versão traz consigo importantes mudanças quanto ao papel do HTML no mundo da Web, através de novas funcionalidades como semântica e acessibilidade. Com novos recursos, antes só possíveis por meio de outras tecnologias. Sua essência tem sido melhorar a linguagem com o suporte para as mais recentes multimídias, enquanto a mantém facilmente legível por seres humanos e consistentemente compreendida por computadores e outros dispositivos (navegadores, parsers, etc). O HTML5 será o novo padrão para HTML, XHTML, e HTML DOM. Atualmente, está em fase de esboço, porém diversos navegadores já implementam algumas de suas funcionalidades.</p>
       </section>
-
-  
-
 
       <section id="students">
         <h2>Quem está participando?</h2>
@@ -44,6 +42,7 @@
         </ol>
       </section>
 
+      <section id="browsers">
       <h3>Navegadores com suporte</h3>
       <table border="1">
         <thead>
@@ -100,51 +99,64 @@
           </tr>
         </tbody>
       </table>
-      <h3> Slides sobre GitHub</h3>
-        <iframe src="http://www.slideshare.net/slideshow/embed_code/2667809" width="350" height="200" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/err/inside-github" title="Inside GitHub" target="_blank"></a> </strong><strong><a href="http://www.slideshare.net/err" target="_blank"></a></strong> </div>
-      <h3>Video Sobre GitHub</h3>
-        <video controls> <source src="video/vialactea.mp4"> </video>
-      <h3>Instrutor</h3>
-      <img src="jpaf.jpg" alt="avatar do Juarez" width="48" height="48">
-      <address>
-        <a href="mailto:juarezpaf@gmail.com?Subject=Tire%20suas%20dúvidas">juarezpaf@gmail.com</a><br>
-        <a href="callto:+558299482935">+55 (82) 9948-2935</a>
-      </address>
-      <blockquote>Não é um monstruoso morto-vivo ahahahah</blockquote>
+      </section>
 
-      <h4>Entre em Contato</h4>
-      <form action="#">
-        <fieldset>
-          <label for="name">Nome:</label>
-        <textarea id="name"></textarea>
-        <label for="assunto">Assunto:</label>
-        <textarea id="assunto"></textarea>
-          <label for="message">Mensagem:</label>
-        <textarea name="message" id="message" cols="30" rows="4"></textarea>
-        <p></p>
-        <input type="radio" name="groupl" value="Criticas">Críticas<br>
-        <input type="radio" name="groupl" value="Duvidas">Dúvidas<br>
-        <input type="radio" name="groupl" value="Sugestoes">Sugestões<br>
-        <p></p>
-        <button type="submit">Enviar</button>
-        </fieldset>
-      </form>
-      <a href="http://github.com">
-        <figure>
-          <img src="img/github.jpg" alt="github" title="Github Founders">     
-        
-          <figcaption>Fotos dos criadores do github</figcaption>
-        </figure>
-      </a>
+      <section id="slides">
+        <h3> Slides sobre GitHub</h3>
+        <iframe src="http://www.slideshare.net/slideshow/embed_code/2667809" width="350" height="200" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/err/inside-github" title="Inside GitHub" target="_blank"></a> </strong><strong><a href="http://www.slideshare.net/err" target="_blank"></a></strong> </div>
+      </section>
+
+      <section id="video">
+        <h3>Video Sobre GitHub</h3>
+        <video controls src="video/vialactea.mp4"></video>
+      </section>
+
+      <section id="professor">
+        <h3>Instrutor</h3>
+        <img src="jpaf.jpg" alt="avatar do Juarez" width="48" height="48">
+        <address>
+          <a href="mailto:juarezpaf@gmail.com?Subject=Tire%20suas%20dúvidas">juarezpaf@gmail.com</a><br>
+          <a href="callto:+558299482935">+55 (82) 9948-2935</a>
+        </address>
+        <blockquote>Não é um monstruoso morto-vivo ahahahah</blockquote>
+      </section>
+
+      <section id="contact">
+        <h4>Entre em Contato</h4>
+        <form action="#">
+          <fieldset>
+            <label for="name">Nome:</label>
+          <textarea id="name"></textarea>
+          <label for="assunto">Assunto:</label>
+          <textarea id="assunto"></textarea>
+            <label for="message">Mensagem:</label>
+          <textarea name="message" id="message" cols="30" rows="4"></textarea>
+          <p></p>
+          <input type="radio" name="groupl" value="Criticas">Críticas<br>
+          <input type="radio" name="groupl" value="Duvidas">Dúvidas<br>
+          <input type="radio" name="groupl" value="Sugestoes">Sugestões<br>
+          <p></p>
+          <button type="submit">Enviar</button>
+          </fieldset>
+        </form>
+      </section>
+
+      <section id="github-founders">
+        <a href="http://github.com">
+          <figure>
+            <img src="img/github.jpg" alt="github" title="Github Founders">     
+          
+            <figcaption>Fotos dos criadores do github</figcaption>
+          </figure>
+        </a>
+      </section>
+
     </article>
 
     <footer id="footer">
-      
       <p><b>Endereço:</b> Av. Gustavo Paiva, <b>nº</b>140, Cruz das Almas, Maceió, Alagoas - Maceió - AL, 57038-000
       <b>Telefone:</b> (0xx)82 3033-0127</p>
-
-  </footer>
-
+    </footer>
 
   </body>
 </html>
